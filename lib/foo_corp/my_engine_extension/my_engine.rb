@@ -2,7 +2,7 @@ module FooCorp
   module MyEngineExtension
     module MyEngine
     
-      def setup
+      def self.config_account(config={})
       end
     
       def do_foo(object_instance, options={})
