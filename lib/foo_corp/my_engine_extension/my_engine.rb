@@ -5,7 +5,7 @@ module FooCorp
       def self.config_account(config={})
       end
     
-      def do_foo(object_instance, options={})
+      def self.do_foo(object_instance, options={})
       end
       
     end
